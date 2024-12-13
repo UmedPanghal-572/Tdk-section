@@ -1,0 +1,23 @@
+:root {
+    --fs-lg: 61px;
+    --fs-md: 22px;
+    --fs-sm: 13px;
+
+    /* color  */
+    --fc-blue: #09476e;
+    --fc-blue-light: #0046ad;
+    --fc-dark-blue: #023da0;
+    --fc-white: #ffffff;
+    --fc-brown: #525252;
+}
+
+.bg-brown {
+    background-color: var(--fc-brown);
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-lg: 30px;
+        --fs-md: 16px;
+    }
+}
