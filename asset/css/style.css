@@ -187,6 +187,10 @@
     padding-bottom: 42px;
 }
 
+.cursor {
+    cursor: default;
+}
+
 .main-heading {
     font-size: var(--fs-lg);
     font-weight: 700;
